@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8000;
 //middleware
 app.use(
   cors({
-    origin: "*", // Frontend URL
+    origin: "https://trividea-front.vercel.app", // Frontend URL
     credentials: true, // Allow cookies and credentials
   })
 );
